@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,21 @@
   <link rel="stylesheet" href="main.css">
   <title>Document</title>
 </head>
+
 <body>
-  
+  <section>
+    <h1>Co-Op Asteroids</h1>
+    <ul>
+      <li>Press space to spawn</li>
+      <li>Click to fire in a direction</li>
+      <li>Multiple people can play in the same game</li>
+    </ul>
+  </section>
   <script src="/socket.io/socket.io.js"></script>
   <script>
     const socket = io();
   </script>
   <script src="bundle.js"></script>
 </body>
+
 </html>
